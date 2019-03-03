@@ -91,7 +91,7 @@ public class InfiniteList<Cell: UITableViewCell, DataPack, CellModel>: UIViewCon
             .disposed(by: disposeBag)
         loadingMore.drive(onNext: { [unowned tableView] (loadingMore) in
             if loadingMore {
-                let spinner = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+                let spinner = UIActivityIndicatorView(style: .gray)
                 spinner.startAnimating()
                 spinner.frame = CGRect(x: 0, y: 0, width: tableView.bounds.width, height: 44)
                 tableView.tableFooterView = spinner

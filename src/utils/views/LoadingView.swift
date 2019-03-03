@@ -13,7 +13,8 @@ class LoadingView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
 
-        let indicator = UIActivityIndicatorView(activityIndicatorStyle: .gray)
+
+        let indicator = UIActivityIndicatorView(style: .gray)
         addSubview(indicator)
         indicator.centerInSuperView()
         indicator.startAnimating()
