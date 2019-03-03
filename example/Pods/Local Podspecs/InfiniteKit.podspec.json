@@ -1,6 +1,6 @@
 {
   "name": "InfiniteKit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "swift_version": "4.2",
   "summary": "declarative infinite data flow",
   "description": "declarative infinite data flow",
@@ -14,7 +14,7 @@
   },
   "source": {
     "git": "https://github.com/wddwycc/InfiniteKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "social_media_url": "https://twitter.com/wddwycc",
   "platforms": {
