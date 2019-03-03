@@ -1,0 +1,12 @@
+platform :ios, '11.0'
+use_frameworks!
+
+target 'InfiniteKit_Example' do
+  pod 'InfiniteKit', :path => '../'
+
+  target 'InfiniteKit_Tests' do
+    inherit! :search_paths
+    pod 'RxBlocking', '~> 4.0'
+    pod 'RxTest',     '~> 4.0'
+  end
+end

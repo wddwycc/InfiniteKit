@@ -1,0 +1,6 @@
+framework module InfiniteKit {
+  umbrella header "InfiniteKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

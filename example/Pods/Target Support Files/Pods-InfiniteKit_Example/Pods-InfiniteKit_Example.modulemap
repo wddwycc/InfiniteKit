@@ -1,0 +1,6 @@
+framework module Pods_InfiniteKit_Example {
+  umbrella header "Pods-InfiniteKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
