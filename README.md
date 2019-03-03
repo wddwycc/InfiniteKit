@@ -1,6 +1,5 @@
 ![logo](https://raw.githubusercontent.com/wddwycc/InfiniteKit/master/misc/header-logo.png)
 
-[![CI Status](https://img.shields.io/travis/wddwyss@gmail.com/InfiniteKit.svg?style=flat)](https://travis-ci.org/wddwyss@gmail.com/InfiniteKit)
 [![Version](https://img.shields.io/cocoapods/v/InfiniteKit.svg?style=flat)](https://cocoapods.org/pods/InfiniteKit)
 [![License](https://img.shields.io/cocoapods/l/InfiniteKit.svg?style=flat)](https://cocoapods.org/pods/InfiniteKit)
 [![Platform](https://img.shields.io/cocoapods/p/InfiniteKit.svg?style=flat)](https://cocoapods.org/pods/InfiniteKit)
@@ -31,8 +30,6 @@ For senior developers, infinite scroll can be abstracted into a common pattern.
 InfiniteKit exists to let developers use this pattern easily, create full-featured infinite scroll faster, and in declarative style.
 
 Let's build up a infinite scroll to list github users using [Github Open API](https://developer.github.com/v3/users/#get-all-users):
-
-TODO: Give a GIF or video here
 
 Firstly, take a look the abstraction in InfiniteKit `InfiniteList<Cell, DataPack, CellModel>`:
 
