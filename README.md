@@ -8,7 +8,7 @@
 
 ## Features
 
-- [x] Create Infinite Scroll in declarative style with much less code
+- [x] Create `Infinite Scroll` in declarative style with much less code
 - [x] All states related UI covered by the library by default
 - [x] Fully customizable
 - [x] Well tested using RxTest
@@ -24,9 +24,8 @@ In real world iOS applications, most data from server are displayed with `UITabl
 - `Pull to refresh`
 - `Pull to load more`
 
-Most junior developers would build up this data flow repeatedly, which would eventually lead to code redundancy and duplicated test cases.  
-For senior developers, infinite scroll can be abstracted into a common pattern.
-
+Most junior developers would build up the data flow repeatedly, which would eventually lead to code redundancy and duplicated test cases.  
+In most cases, Infinite scroll can be abstracted into a common pattern.  
 InfiniteKit exists to let developers use this pattern easily, create full-featured infinite scroll faster, and in declarative style.
 
 Let's build up a infinite scroll to list github users using [Github Open API](https://developer.github.com/v3/users/#get-all-users):
